@@ -10,13 +10,24 @@ include_once ('view/layout/header.inc.php');
 		<div>
     		<label>Votre E-Mail : </label>
     		<div>
-				<input type="mail"	name="newsletter"	placeholder="E-Mail"	class="form-control"><br>
+				<input type="email"	name="newsletter"	placeholder="E-Mail"	class="form-control"><br>
 			</div>
 
 			<input type="submit"	value="Valider" />
 		</div>	
 
 		</form>
+
+
+		<script type="text/javascript">
+			$(function() {
+		    	$('.yourCountdownContainer').countdown({
+        			date: "June 7, 2087 15:03:26"
+    			});
+			});
+		</script>
+
+		      <div class="countdown simple" data-date="June 7, 2037 15:03:25"></div>
 	</div>
 
 
